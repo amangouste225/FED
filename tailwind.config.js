@@ -12,6 +12,9 @@ export default {
       fontFamily: {
         Gro: "Grotesk",
       },
+      gridTemplateRows: {
+        layout: "10% 10% 80%",
+      },
     },
   },
   plugins: [],
