@@ -5,6 +5,7 @@ export default {
     extend: {
       fontSize: {
         heading1: "14rem",
+        title: "7rem",
       },
       lineHeight: {
         n: 0.8,

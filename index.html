@@ -4,15 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Trending Website | Amangoua</title>
     <link rel="stylesheet" href="./project4/style.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
 
 </head>
 
 <body>
-    <main class="grid grid-cols-2 grid-rows-layout grid-flow-col p-10 h-full w-full content-start">
-        <div class="col-span-2 row-span-1 flex justify-between items-center h-[10%]">
+    <main class="grid grid-cols-2 grid-rows-layout grid-flow-col h-full w-full">
+        <div class="col-span-2 row-span-1 flex justify-between items-center p-10">
             <a href="/" class="logo inline-flex justify-center gap-0 items-center">
                 <span class="bg-black w-8 h-8 rounded-full"></span>
                 <span class="bg-black w-8 h-8 rounded-full"></span>
@@ -45,7 +45,7 @@
             </div>
         </div>
         <ul
-            class="flex row-span-1 justify-between flex-wrap uppercase font-light items-start w-full lg:w-[50%] col-span-2 text-3xl">
+            class="flex row-span-1 justify-between p-10 flex-wrap uppercase font-light items-start w-2/3 lg:col-span-2 text-3xl">
             <li class=" before:content-[''] before:w-full before:h-1 before:bg-black before:absolute before:-bottom-1
             before:opacity-0 before:hover:opacity-100 transition-width relative">
                 <a href="/">SUN</a>
@@ -76,8 +76,27 @@
             </li>
         </ul>
 
-        <div class="col-span-2  border h-full">
-            Hello
+        <div class="col-span-2 h-full w-full">
+            <div class="w-full h-[30%] bg-red-600] flex overflow-x-auto" id="content">
+                <div class="h-full w-2/3 shrink-0 flex justify-center items-center">
+                    <h1 class="text-title font-extralight">Jack Sparrow</h1>
+                </div>
+                <div class="h-full w-2/3 shrink-0 flex justify-center items-center">
+                    <h1 class="text-title font-extralight">Jack Sparrow</h1>
+                </div>
+                <div class="h-full w-2/3 shrink-0 flex justify-center items-center">
+                    <h1 class="text-title font-extralight">Jack Sparrow</h1>
+                </div>
+                <div class="h-full w-2/3 shrink-0 flex justify-center items-center">
+                    <h1 class="text-title font-extralight">Jack Sparrow</h1>
+                </div>
+            </div>
+            <div class="bg-red-900 h-full w-full flex overflow-x-auto" id="image_content">
+                <img src="./project4/image1.jpg" alt="img1" class="w-full h-full object-cover flex-shrink-0">
+                <img src="./project4/img2.jpg" alt="img1" class="w-full h-full object-cover flex-shrink-0">
+                <img src="./project4/img3.jpg" alt="img1" class="w-full h-full object-cover flex-shrink-0">
+                <img src="./project4/image1.jpg" alt="img1" class="w-full h-full object-cover flex-shrink-0">
+            </div>
         </div>
     </main>
 </body>
